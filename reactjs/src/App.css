@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.App h4 {
+  text-align: center;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+.content {
+  margin: 15px 90px;
+  padding: 20px 0px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.226);
+  border-radius: 10px;
+}
+
+.content h4 {
+  text-align: center;
+}
+
+.Blocs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Bloc {
+  background-color: rgb(4, 43, 94);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  width: 275px;
+  padding: 90px 30px;
+  border-radius: 20px;
+}
+
+.Bloc:hover {
+  background-color: rgb(0, 79, 183);
+  color: #fff;
+  text-align: center;
+  width: 275px;
+  padding: 90px 30px;
+  border-radius: 20px;
+}
